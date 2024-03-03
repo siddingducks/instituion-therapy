@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #bde1e1;
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.list {
+    padding-left: 3%;
+}
+
+.text {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+#img-iods {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.7em;
+}
+
+a.reference-links {
+    color: black;
+}
+
+a:hover.reference-links {
+    color: blue;
+}
+
+.references {
+    padding-left: 23%;
+    text-indent: -5%;
+}
