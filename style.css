@@ -67,10 +67,6 @@ footer {
     background-color: #344A4F;
 }
 
-a {
-    color: white;
-}
-
 @media only screen and (min-width: 768px) {
     /* For desktop, laptop, large tablet: */
     .jumbotron {
