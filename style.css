@@ -1,13 +1,26 @@
-.navbar {
-    background-color: #bde1e1;
+.container-fluid {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #64b4cb;
 }
 
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background-color: #e9ecef;
+    background-image: url(images/therapy-one-on-one.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center 30%;
+    background-color: #62b6cb;
     border-radius: .3rem;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.content {
+    margin-top: 1.75%;
 }
 
 .list {
@@ -17,17 +30,18 @@
 .text {
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
+    hyphens: auto;
 }
 
 #img-iods {
-    width: 25%;
+    width: 75%;
     margin: auto;
     text-align: center;
 }
 
 figcaption {
     font-size: 0.7em;
+    margin-bottom: 15px;
 }
 
 a.reference-links {
@@ -42,3 +56,34 @@ a:hover.reference-links {
     padding-left: 23%;
     text-indent: -5%;
 }
+
+footer {
+    font-size: 0.75em;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #344A4F;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop, laptop, large tablet: */
+    .jumbotron {
+        background-size: contain;
+        background-position: 80% 0%;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    .content {
+        margin-top: .85%;
+        font-size: 110%;
+    }
+
+    #img-iods {
+        width: 25%;
+    }
+  }
