@@ -6,4 +6,5 @@
                 `mailto:${attrs.part1}@${attrs.part2}.${attrs.part3}?subject=${attrs.subject}`
             );
             link.textContent = `${attrs.part1}@${attrs.part2}.${attrs.part3}`;
+            link.style.color = 'white';
         }
